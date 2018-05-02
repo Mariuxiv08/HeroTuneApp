@@ -1,0 +1,46 @@
+nav.navbar, .navbar-default{
+	background-color: #757575;
+}
+
+.navbar-default {
+	background-image: none;
+	border: none;
+	border-radius: 0;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: white;
+}
+
+.navbar-default .navbar-brand {
+	color: #e0e0e0;
+}
+
+.navbar-default .navbar-toogle {
+	border-color: white;
+}
+
+.navbar-default .navbar-toogle .icon-bar{
+	background-color:  white;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+	color: white;
+	background-color: transparent;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
+	color: white;
+	background-color: transparent;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+	color: white;
+	background-color: transparent;
+}
+
+a.title.navbar-brand {
+	font-family: 'Luckiest Guy', cursive;
+	font-size: 25px;
+}
+
+

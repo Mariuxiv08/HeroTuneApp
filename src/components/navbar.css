@@ -1,5 +1,7 @@
 nav.navbar, .navbar-default{
-	background-color: #757575;
+	background-color: #616161;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+
 }
 
 .navbar-default {
@@ -9,28 +11,31 @@ nav.navbar, .navbar-default{
 }
 
 .navbar-default .navbar-nav > li > a {
-	color: white;
+	color: #ffca28;
+	font-size: 16px;
+	font-family: 'Monoton', cursive;
+
 }
 
 .navbar-default .navbar-brand {
-	color: #e0e0e0;
+	color: #9e9e9e;
 }
 
 .navbar-default .navbar-toogle {
-	border-color: white;
+	border-color: #d81b60;
 }
 
 .navbar-default .navbar-toogle .icon-bar{
-	background-color:  white;
+	background-color:  #d81b60;
 }
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
-	color: white;
+	color: #d81b60;
 	background-color: transparent;
 }
 
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
-	color: white;
+	color: #d81b60;
 	background-color: transparent;
 }
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
@@ -39,8 +44,32 @@ nav.navbar, .navbar-default{
 }
 
 a.title.navbar-brand {
-	font-family: 'Luckiest Guy', cursive;
-	font-size: 25px;
+	font-family: 'Monoton', cursive;
+	font-size: 45px;
+	color: #ffca28;
 }
 
 
+.navbar-brand, .navbar-nav>li>a {
+    text-shadow: none;
+    line-height: 40px;
+
+}
+
+
+.navbar-nav>li>a {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding: 32px 20px;
+}
+.navbar-brand{
+	padding: 30px 30px;
+}
+
+.title .navbar-brand{
+
+}
+
+.navbar{
+	margin-bottom: 40px;
+}

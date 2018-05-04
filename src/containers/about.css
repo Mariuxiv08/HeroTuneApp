@@ -1,22 +1,57 @@
+.bodytext{
+	color: #eeeeee;
+}
 .jumbotron {
 	margin-bottom: 4em;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
 }
-
+.jumbotron p {
+	color: #616161;
+	font-style: italic;
+	font-weight: lighter;
+}
+.jumbotron h2 {
+	color: #616161;
+	font-family: 'Monoton', cursive;
+}
+.jumbotron button {
+	color: #ffca28;
+	font-family: 'Monoton', cursive;
+	border-radius: 6px;
+}
 .person-wrapper {
 	margin-bottom:  2em;
 }
 
 .about-pic {
 	width: 50%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+
 }
 
 .btn-primary{
 	background-image: none;
 	border: none;
-	border-radius: 0;
+	border-radius: 25%;
 	background-color: #424242;
+	float: right;
 }
 
-h3{
+.title{
 	margin-bottom: 1em;
+	color: white;
 }
+ .titlename{
+ 	float: left;
+ 	font-family: 'Roboto', sans-serif;
+ 	padding-left: 10px;
+ 	color: #e0e0e0;
+ 	font-size: 18px;
+
+ }
+ .meabout{
+ 	float: left;
+ 	color: #616161;
+	font-style: italic;
+	font-weight: lighter;
+ }

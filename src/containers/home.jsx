@@ -19,7 +19,7 @@ class Home extends Component {
 			selectedVideo : null
 		};
 
-		YTSearch({key: API_KEY, term: 'j balvin'}, (videos) => {
+		YTSearch({key: API_KEY, term:'qgGATIVOZyM'}, (videos) => {
 			this.setState({
 				videos: videos,
 				selectedVideo: videos[0]
@@ -30,6 +30,7 @@ class Home extends Component {
 render () {
 	return (
 		<div>
+		<p className="subheader">HeroTune Stories, helping insipring others!</p>
 		    <div className="col-md">
 				    <VideoDetail video={this.state.selectedVideo} />
 				  </div>

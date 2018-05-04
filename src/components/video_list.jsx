@@ -13,12 +13,17 @@ const styles = {
     display: 'flex',
     flexWrap: 'nowrap',
     overflowX: 'auto',
+
   },
   titleStyle: {
-    color: '#eeeeee',
+    color: '#e0e0e0',
   },
   gridTile: {
     cursor: 'pointer',
+    width: '246px',
+    height: '184px',
+    borderRadius: '6px'
+
   },
 };
 
@@ -34,7 +39,7 @@ const GridListExampleSingleLine = (props) => (
           titleStyle={styles.titleStyle}
           titleBackground="linear-gradient(to top, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.3) 70%,rgba(0,0,0,0) 100%)"
         >
-          <img src={video.snippet.thumbnails.default.url} />
+          <img className="videomenuimage" src={video.snippet.thumbnails.default.url} />
         </GridTile>
       ))}
     </GridList>

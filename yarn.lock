@@ -124,6 +124,12 @@ accepts@~1.3.4, accepts@~1.3.5:
     mime-types "~2.1.18"
     negotiator "0.6.1"
 
+acolor@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/acolor/-/acolor-2.0.1.tgz#0040a3f9906edbbc94e9908096dd2b77ef6470a4"
+  dependencies:
+    color "^2.0.0"
+
 acorn-dynamic-import@^2.0.0:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/acorn-dynamic-import/-/acorn-dynamic-import-2.0.2.tgz#c752bd210bef679501b6c6cb7fc84f8f47158cc4"
@@ -1378,6 +1384,10 @@ builtin-status-codes@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/builtin-status-codes/-/builtin-status-codes-3.0.0.tgz#85982878e21b98e1c66425e03d0174788f569ee8"
 
+bwindow@^1.1.0:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/bwindow/-/bwindow-1.1.1.tgz#4ee76a8649b7d3410836d6e2fd06d5b044b833ab"
+
 bytebuffer@~5:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/bytebuffer/-/bytebuffer-5.0.1.tgz#582eea4b1a873b6d020a48d58df85f0bba6cfddd"
@@ -1644,7 +1654,7 @@ collection-visit@^1.0.0:
     map-visit "^1.0.0"
     object-visit "^1.0.0"
 
-color-convert@^1.3.0, color-convert@^1.9.0:
+color-convert@^1.3.0, color-convert@^1.9.0, color-convert@^1.9.1:
   version "1.9.1"
   resolved "https://registry.yarnpkg.com/color-convert/-/color-convert-1.9.1.tgz#c1261107aeb2f294ebffec9ed9ecad529a6097ed"
   dependencies:
@@ -1660,6 +1670,13 @@ color-string@^0.3.0:
   dependencies:
     color-name "^1.0.0"
 
+color-string@^1.5.2:
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/color-string/-/color-string-1.5.2.tgz#26e45814bc3c9a7cbd6751648a41434514a773a9"
+  dependencies:
+    color-name "^1.0.0"
+    simple-swizzle "^0.2.2"
+
 color@^0.11.0:
   version "0.11.4"
   resolved "https://registry.yarnpkg.com/color/-/color-0.11.4.tgz#6d7b5c74fb65e841cd48792ad1ed5e07b904d764"
@@ -1667,6 +1684,13 @@ color@^0.11.0:
     clone "^1.0.2"
     color-convert "^1.3.0"
     color-string "^0.3.0"
+
+color@^2.0.0:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/color/-/color-2.0.1.tgz#e4ed78a3c4603d0891eba5430b04b86314f4c839"
+  dependencies:
+    color-convert "^1.9.1"
+    color-string "^1.5.2"
 
 colormin@^1.0.5:
   version "1.1.2"
@@ -3675,6 +3699,10 @@ is-arrayish@^0.2.1:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/is-arrayish/-/is-arrayish-0.2.1.tgz#77c99840527aa8ecb1a8ba697b80645a7a926a9d"
 
+is-arrayish@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/is-arrayish/-/is-arrayish-0.3.1.tgz#c2dfc386abaa0c3e33c48db3fe87059e69065efd"
+
 is-binary-path@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/is-binary-path/-/is-binary-path-1.0.1.tgz#75f16642b480f187a711c814161fd3a4a7655898"
@@ -4371,7 +4399,7 @@ jsx-ast-utils@^2.0.0:
   dependencies:
     array-includes "^3.0.3"
 
-keycode@^2.1.2, keycode@^2.1.8:
+keycode@^2.1.2, keycode@^2.1.8, keycode@^2.1.9:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/keycode/-/keycode-2.2.0.tgz#3d0af56dc7b8b8e5cba8d0a97f107204eec22b04"
 
@@ -6602,6 +6630,12 @@ simple-assign@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/simple-assign/-/simple-assign-0.1.0.tgz#17fd3066a5f3d7738f50321bb0f14ca281cc4baa"
 
+simple-swizzle@^0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/simple-swizzle/-/simple-swizzle-0.2.2.tgz#a4da6b635ffcccca33f70d17cb92592de95e557a"
+  dependencies:
+    is-arrayish "^0.3.1"
+
 slash@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/slash/-/slash-1.0.0.tgz#c41f2f6c39fc16d1cd17ad4b5d896114ae470d55"
@@ -7030,6 +7064,68 @@ text-table@0.2.0, text-table@~0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/text-table/-/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
 
+the-component-constants@^1.1.10, the-component-constants@^1.1.8:
+  version "1.1.10"
+  resolved "https://registry.yarnpkg.com/the-component-constants/-/the-component-constants-1.1.10.tgz#61a42cb29b66e2aa3d7a1e6d09b6ade8dea3268a"
+
+the-component-util@^2.1.0, the-component-util@^2.2.0, the-component-util@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/the-component-util/-/the-component-util-2.2.1.tgz#d36e59ecc0e5fda9a844224da3b7669f27852342"
+  dependencies:
+    acolor "^2.0.1"
+    bwindow "^1.1.0"
+    keycode "^2.1.9"
+    the-component-constants "^1.1.8"
+    uuid "^3.0.1"
+    video-extensions "^1.1.0"
+
+the-container@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/the-container/-/the-container-3.0.1.tgz#a0928650be79641a65938caff01f899d19a389ee"
+  dependencies:
+    classnames "^2.2.5"
+    prop-types "^15.6.0"
+    the-component-util "^2.1.0"
+    the-style "^2.1.0"
+
+the-footer@^2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/the-footer/-/the-footer-2.1.2.tgz#ef59bf63a598c8b628d62c0dfd6f4028cac1cd7c"
+  dependencies:
+    classnames "^2.2.5"
+    prop-types "^15.6.1"
+    the-component-util "^2.2.1"
+    the-container "^3.0.1"
+    the-link "^3.0.8"
+    the-style "^2.1.0"
+
+the-icon@^4.0.4:
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/the-icon/-/the-icon-4.0.4.tgz#f7abb5f28ce6bfea7605343ff26ef0b35dd867af"
+  dependencies:
+    classnames "^2.2.5"
+    prop-types "^15.6.1"
+    the-component-util "^2.2.0"
+    the-style "^2.1.0"
+
+the-link@^3.0.8:
+  version "3.0.9"
+  resolved "https://registry.yarnpkg.com/the-link/-/the-link-3.0.9.tgz#0690f97d41d63d2e40ff138dbca202f55ff9c269"
+  dependencies:
+    classnames "^2.2.5"
+    prop-types "^15.6.1"
+    the-component-util "^2.2.1"
+    the-icon "^4.0.4"
+    the-style "^2.1.0"
+
+the-style@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/the-style/-/the-style-2.1.0.tgz#701e5eecd700c28c149a11d47a44a9d449d7f817"
+  dependencies:
+    classnames "^2.2.5"
+    prop-types "^15.6.0"
+    the-component-constants "^1.1.10"
+
 throat@^3.0.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/throat/-/throat-3.2.0.tgz#50cb0670edbc40237b9e347d7e1f88e4620af836"
@@ -7351,7 +7447,7 @@ uuid@^2.0.2:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-2.0.3.tgz#67e2e863797215530dff318e5bf9dcebfd47b21a"
 
-uuid@^3.1.0:
+uuid@^3.0.1, uuid@^3.1.0:
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.2.1.tgz#12c528bb9d58d0b9265d9a2f6f0fe8be17ff1f14"
 
@@ -7381,6 +7477,10 @@ verror@1.10.0:
     assert-plus "^1.0.0"
     core-util-is "1.0.2"
     extsprintf "^1.2.0"
+
+video-extensions@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/video-extensions/-/video-extensions-1.1.0.tgz#eaa86b45f29a853c2b873e9d8e23b513712997d6"
 
 vm-browserify@0.0.4:
   version "0.0.4"
